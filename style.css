@@ -1,0 +1,68 @@
+/* Configuración general para eliminar márgenes por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #ffffff;
+}
+
+/* Estilos del Encabezado */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.logo {
+    height: 80px; /* Ajusta según el tamaño de tu logo */
+}
+
+.header-text {
+    text-align: right;
+    color: #0020c2; /* Azul característico de la UGB */
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+/* Estilos del Contenido Central */
+.content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 4rem;
+    color: #333333;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+/* Estilos del Pie de Página */
+.footer {
+    background-color: #1a237e; /* Azul oscuro */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-info p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+
+.underline {
+    text-decoration: underline;
+    font-weight: bold;
+}
